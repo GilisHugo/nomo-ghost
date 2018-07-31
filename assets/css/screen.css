@@ -1198,6 +1198,13 @@ Usage (In Ghost editor):
     line-height: 1.3em;
 }
 
+/*add by Choin*/
+@media (min-width: 768px) {
+    .author-card-name a {
+        color: #fff;
+    }
+}
+
 .post-full-footer-right {
     flex-shrink: 0;
     margin-left: 20px;
