@@ -543,7 +543,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     background: #fff;
 }
 
-@media (min-width: 768) {
+@media (min-width: 768px) {
     .post-template .site-main,
     .page-template .site-main {
         background: #0f142a;
