@@ -1954,4 +1954,7 @@ Usage (In Ghost editor):
         margin-left: auto;
         margin-right: auto;
     }
+    .fb-comments {
+        order: 3;
+    }
 }
