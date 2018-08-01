@@ -20,12 +20,12 @@
             {{> "icons/facebook"}}
         </a>
         {{! add by Choin for share to linkedin}}
-        <a class="floating-header-share-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&title={{title}}&url={{url absolute="true"}}"
+        <a class="floating-header-share-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&title={{encode title}}&url={{url absolute="true"}}"
             onclick="window.open(this.href, 'share-linkedin', 'width=550,height=235');return false;">
             {{> "icons/linkedin"}}
         </a>
         {{! add by Choin for share to line}}
-        <a class="floating-header-share-line" href="https://social-plugins.line.me/lineit/share?url={{title}}{{url absolute="true"}}"
+        <a class="floating-header-share-line" href="https://social-plugins.line.me/lineit/share?url={{encode title}} {{url absolute="true"}}"
             onclick="window.open(this.href, 'share-line', 'width=550,height=235');return false;">
             {{> "icons/line"}}
         </a>
