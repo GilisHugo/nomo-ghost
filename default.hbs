@@ -70,6 +70,9 @@
     <script src="{{asset "js/infinitescroll.js"}}"></script>
     {{/if}}
 
+    {{!add for canvase effect}}
+    <script src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js" color="255,255,255" opacity="1" zindex="-1" count="150"></script>
+
     {{!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. --}}
     {{{block "scripts"}}}
 

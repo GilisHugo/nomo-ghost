@@ -546,7 +546,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 @media (min-width: 768px) {
     .post-template .site-main,
     .page-template .site-main {
-        background: #0f142a;
+        background: #0e142e;
     }
 }
 
@@ -1965,3 +1965,10 @@ Usage (In Ghost editor):
         order: 3;
     }
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
