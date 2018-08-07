@@ -88,6 +88,7 @@ body {
 /* 3. Special Template Styles
 /* ---------------------------------------------------------- */
 
+/* remove by Choin temporarily for test sticky bar
 @media (min-width: 900px) {
     .home-template .post-feed,
     .tag-template .post-feed,
@@ -100,7 +101,7 @@ body {
         top: -70px;
     }
 }
-
+*/
 
 /* 4. Site Header
 /* ---------------------------------------------------------- */
@@ -207,6 +208,7 @@ body {
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
+    margin-left: 10px;
     margin-right: 10px;
     padding-bottom: 80px;
     letter-spacing: 0.4px;
@@ -540,13 +542,15 @@ The first (most recent) post in the list is styled to be bigger than the others 
 .post-template .site-main,
 .page-template .site-main {
     padding-bottom: 4vw;
-    background: #fff;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .post-template .site-main,
     .page-template .site-main {
+        /*
         background: #0e142e;
+        */
+        background: #fff;
     }
 }
 
@@ -1966,9 +1970,10 @@ Usage (In Ghost editor):
     }
 }
 
+/* add by Choin for sticky bar*/
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
+    background: #000;
 }
-  
